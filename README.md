@@ -9,12 +9,12 @@
 <!-- markdownlint-enable MD033 -->
 <div>   
     <a href="#" id-"top"><img  alt="github repos" src="https://badges.strrl.dev/repos/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
-    <a href="https://badges.strrl.dev"><img  alt="commits today" src="https://badges.strrl.dev/commits/daily/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
-    <a href="https://badges.strrl.dev"><img  alt="commits this week" src="https://badges.strrl.dev/commits/weekly/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
-    <a href="https://badges.strrl.dev"><img  alt="commits this month" src="https://badges.strrl.dev/commits/monthly/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
-    <a href="https://badges.strrl.dev"><img  alt="all commits" src="https://badges.strrl.dev/commits/all/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
+    <a href="#"><img  alt="commits today" src="https://badges.strrl.dev/commits/daily/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
+    <a href="#"><img  alt="commits this week" src="https://badges.strrl.dev/commits/weekly/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
+    <a href="#"><img  alt="commits this month" src="https://badges.strrl.dev/commits/monthly/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
+    <a href="#"><img  alt="all commits" src="https://badges.strrl.dev/commits/all/estevaolopesxd?color=181717&style=for-the-badge&labelColor=7E3ACE"></a>    
 </div><br>
-  <a href="https://github.com/JonathanMart">
+  <a href="https://github.com/estevaolopesxd">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=estevaolopesxd&count_private=true&show_icons=true&theme=midnight-purple&hide_border=true&hide_title=true" alt="my github stats"/>
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=estevaolopesxd&theme=midnight-purple&hide_border=true&layout=compact&custom_title=Most+Used+Languages*&langs_count=10" alt="most used languages"/>
 </div>
