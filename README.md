@@ -29,17 +29,7 @@
   <img align="center" alt="Estevão-Wp" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg">    
   </div></code>
 
-## 📊 Github Stats 
 
-
-  <summary><b>💻 GitHub Profile Stats</b></summary>
-  <br/>
-  <p align="center">
-    <a href="https://github.com/estevaolopesxd"><img align="center" src="https://github-readme-stats.vercel.app/api?username=estevaolopesxd&show_icons=true&locale=en&theme=algolia" alt="Estevão Lopes" height="192px"/></a>
-	</p>
-	<p  align="center">
-	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=estevaolopesxd&show_icons=true&locale=en&layout=compact&theme=algolia" alt="estevaolopesxd" height="192px"/>
-	</p>
   
   
    ![Snake animation](https://github.com/estevaolopesxd/estevaolopesxd/blob/output/github-contribution-grid-snake.svg)   
