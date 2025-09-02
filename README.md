@@ -1,50 +1,70 @@
-<!-- markdownlint-disable MD033 MD041 -->
-<p align="center">
-  <h3 align="center">⌨️ Seja Bem Vindo(a) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
-</p>
+<!-- Banner de destaque -->
+<h1 align="center">👋 Olá, eu sou o Estevão Lopes</h1>
+<h3 align="center">💻 Desenvolvedor Fullstack | 🚀 DevOps & Automação | 🤖 AI & Bots</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Meu+nome+é+Estevão+Lopes;Desenvolvedor+Front-End!;Estudante+de+ADS!;Fique+a+vontade!&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+  <a href="https://github.com/estevaolopesxd"><img src="https://img.shields.io/badge/GitHub-estevaolopesxd-181717?logo=github&style=for-the-badge"></a>
+  <a href="https://www.linkedin.com/in/estev%C3%A3o-lopes-5a464b179/"><img src="https://img.shields.io/badge/LinkedIn-Estevão%20Lopes-0A66C2?logo=linkedin&style=for-the-badge"></a>
 </p>
-<!-- markdownlint-enable MD033 -->
-  <a href="https://github.com/estevaolopesxd">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=estevaolopesxd&count_private=true&show_icons=true&theme=midnight-purple&hide_border=true&hide_title=true" alt="my github stats"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=estevaolopesxd&theme=midnight-purple&hide_border=true&layout=compact&custom_title=Most+Used+Languages*&langs_count=10" alt="most used languages"/>
-</div>
-<h2>:bulb: Languages & Frameworks</h2>
-  
-  <div style="display: inline_block"><br>
-  <img align="center" alt="Estevão-Html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img align="center" alt="Estevão-Css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-    <img align="center" alt="Estevão-Scss" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-  <img align="center" alt="Estevão-Js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img align="center" alt="Estevão-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Estevão-Wp" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg">    
-  </div></code>
 
+---
 
-  
-  
-   ![Snake animation](https://github.com/estevaolopesxd/estevaolopesxd/blob/output/github-contribution-grid-snake.svg)   
- 
-<br/>
+## 🚀 Sobre mim
 
-<p align="center">:round_pushpin: Profile visitors</p>
-<div align="center">
-    <img alt="visitors counter" src="https://profile-counter.glitch.me/estevaolopesxd/count.svg">
-</div>
+Sou apaixonado por **tecnologia, automação e inovação**.  
+Transformo ideias em **projetos funcionais e escaláveis**, unindo **design moderno, backend sólido e soluções inteligentes**.  
+Busco sempre aprender, evoluir e entregar **experiências digitais de alto impacto**.
 
-<div align="center">
-    <a href="https://git.io/typing-svg">
-        <img alt="thanks for your visit" src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&size=24&pause=1000&color=7E3ACECE&center=true&vCenter=true&width=435&lines=Thanks+for+your+visit!" >
-    </a>
-</div>
-    <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=7E3ACE&style=flat&logo" alt="back to top" /></a></p>
+---
 
+## 🛠️ Tecnologias & Ferramentas
 
+### 🌐 Frontend  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Material UI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 
+### ⚙️ Backend  
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-<!---
-estevaolopesxd/estevaolopesxd is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 🛠 DevOps & Infra  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
+![EasyPanel](https://img.shields.io/badge/EasyPanel-FF6B6B?style=for-the-badge)
+
+### 📊 Bancos de Dados  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+### 🤖 Automação & AI  
+![n8n](https://img.shields.io/badge/n8n-FE2C54?style=for-the-badge&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![WhatsApp Bots](https://img.shields.io/badge/WhatsApp_Bots-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=estevaolopesxd&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=estevaolopesxd&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
+</p>
+
+---
+
+## 🌍 Onde me encontrar
+
+📌 [GitHub](https://github.com/estevaolopesxd)  
+📌 [LinkedIn](https://www.linkedin.com/in/estev%C3%A3o-lopes-5a464b179/)
+
+---
+
+<h3 align="center">✨ “Código limpo, ideias ousadas e soluções inteligentes.” ✨</h3>
