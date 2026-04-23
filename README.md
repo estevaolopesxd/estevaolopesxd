@@ -1,6 +1,6 @@
 <!-- Banner de destaque -->
 <h1 align="center">👋 Olá, eu sou o Estevão Lopes</h1>
-<h3 align="center">💻 Desenvolvedor Fullstack | 🚀 DevOps & Automação | 🤖 AI & Bots</h3>
+<h3 align="center">💻 Desenvolvedor | 🚀 DevOps & Automação | 🤖 AI & Bots</h3>
 
 <p align="center">
   <a href="https://github.com/estevaolopesxd"><img src="https://img.shields.io/badge/GitHub-estevaolopesxd-181717?logo=github&style=for-the-badge"></a>
