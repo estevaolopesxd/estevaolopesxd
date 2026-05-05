@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <h1 align="center">👋 Olá, eu sou o Estevão Lopes</h1>
-<h3 align="center">💻 Desenvolvedor Backend | .NET | APIs | Observabilidade | Docker</h3>
+<h3 align="center">💻 Desenvolvedor Full Stack | .NET | React | SQL | APIs | Automação</h3>
 
 <p align="center">
   <a href="https://github.com/estevaolopesxd">
