@@ -1,0 +1,220 @@
+<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Estevão Lopes - Full Stack Developer pixel art animation</title>
+  <desc>Pixel art of a developer coding at a computer with floating tech symbols</desc>
+
+  <style>
+    .cursor { animation: cursor 0.8s steps(1) infinite; }
+    @keyframes cursor { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    .float1 { animation: floatUp 3.2s ease-in-out infinite; }
+    .float2 { animation: floatUp 3.2s ease-in-out infinite 1s; }
+    .float3 { animation: floatUp 3.2s ease-in-out infinite 2s; }
+    @keyframes floatUp {
+      0%   { transform: translateY(0px); opacity:0; }
+      15%  { opacity:1; } 85%  { opacity:1; }
+      100% { transform: translateY(-56px); opacity:0; }
+    }
+    .typing { animation: typingAnim 1.8s steps(1) infinite; }
+    @keyframes typingAnim {
+      0%,100% { transform: translateX(0); }
+      33%     { transform: translateX(3px); }
+      66%     { transform: translateX(6px); }
+    }
+    .led { animation: ledPulse 1.4s ease-in-out infinite; }
+    @keyframes ledPulse { 0%,100%{opacity:1} 50%{opacity:0.25} }
+    .scanline { animation: scan 2.8s linear infinite; }
+    @keyframes scan {
+      0%   { transform: translateY(0);    opacity:0.13; }
+      100% { transform: translateY(60px); opacity:0.13; }
+    }
+    .steam1 { animation: steam 2s ease-out infinite; }
+    .steam2 { animation: steam 2s ease-out infinite 0.7s; }
+    @keyframes steam {
+      0%   { transform: translateY(0);     opacity:0.5; }
+      100% { transform: translateY(-10px); opacity:0; }
+    }
+  </style>
+
+  <!-- background -->
+  <rect x="0" y="0" width="680" height="200" fill="#0d1117" rx="12"/>
+
+  <!-- grid dots -->
+  <g fill="#1c2333">
+    <rect x="18" y="18" width="3" height="3" rx="1"/><rect x="38" y="18" width="3" height="3" rx="1"/>
+    <rect x="58" y="18" width="3" height="3" rx="1"/><rect x="78" y="18" width="3" height="3" rx="1"/>
+    <rect x="18" y="38" width="3" height="3" rx="1"/><rect x="38" y="38" width="3" height="3" rx="1"/>
+    <rect x="18" y="58" width="3" height="3" rx="1"/><rect x="38" y="58" width="3" height="3" rx="1"/>
+    <rect x="18" y="148" width="3" height="3" rx="1"/><rect x="38" y="148" width="3" height="3" rx="1"/>
+    <rect x="18" y="168" width="3" height="3" rx="1"/><rect x="38" y="168" width="3" height="3" rx="1"/>
+    <rect x="598" y="18" width="3" height="3" rx="1"/><rect x="618" y="18" width="3" height="3" rx="1"/>
+    <rect x="638" y="18" width="3" height="3" rx="1"/><rect x="658" y="18" width="3" height="3" rx="1"/>
+    <rect x="598" y="38" width="3" height="3" rx="1"/><rect x="618" y="38" width="3" height="3" rx="1"/>
+    <rect x="598" y="58" width="3" height="3" rx="1"/><rect x="618" y="58" width="3" height="3" rx="1"/>
+    <rect x="598" y="148" width="3" height="3" rx="1"/><rect x="618" y="148" width="3" height="3" rx="1"/>
+    <rect x="598" y="168" width="3" height="3" rx="1"/><rect x="618" y="168" width="3" height="3" rx="1"/>
+  </g>
+
+  <!-- ── MONITOR ── -->
+  <rect x="285" y="168" width="110" height="8" rx="3" fill="#21262d"/>
+  <rect x="332" y="148" width="16" height="22" rx="2" fill="#21262d"/>
+  <rect x="228" y="62" width="224" height="90" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="237" y="70" width="206" height="74" rx="4" fill="#010409"/>
+  <!-- scanline -->
+  <rect class="scanline" x="237" y="70" width="206" height="9" fill="#58a6ff"/>
+  <!-- code lines -->
+  <rect x="245" y="78" width="55" height="3" rx="1" fill="#ff7b72"/>
+  <rect x="306" y="78" width="28" height="3" rx="1" fill="#79c0ff"/>
+  <rect x="340" y="78" width="22" height="3" rx="1" fill="#56d364"/>
+  <rect x="253" y="87" width="38" height="3" rx="1" fill="#79c0ff"/>
+  <rect x="297" y="87" width="48" height="3" rx="1" fill="#e3b341"/>
+  <rect x="351" y="87" width="18" height="3" rx="1" fill="#a5d6ff"/>
+  <rect x="253" y="96" width="76" height="3" rx="1" fill="#56d364"/>
+  <rect x="335" y="96" width="24" height="3" rx="1" fill="#ff7b72"/>
+  <rect x="253" y="105" width="52" height="3" rx="1" fill="#a5d6ff"/>
+  <rect x="311" y="105" width="34" height="3" rx="1" fill="#79c0ff"/>
+  <rect x="245" y="114" width="33" height="3" rx="1" fill="#ff7b72"/>
+  <rect x="284" y="114" width="44" height="3" rx="1" fill="#e3b341"/>
+  <rect x="253" y="123" width="66" height="3" rx="1" fill="#56d364"/>
+  <rect class="cursor" x="325" y="123" width="7" height="3" rx="1" fill="#58a6ff"/>
+  <!-- LED -->
+  <rect class="led" x="333" y="148" width="14" height="5" rx="2" fill="#56d364"/>
+
+  <!-- ── FLOATING SYMBOLS ── -->
+  <g class="float1" transform="translate(162,88)">
+    <rect x="0" y="0" width="30" height="28" rx="4" fill="#1c2333" stroke="#30363d" stroke-width="1"/>
+    <text x="15" y="20" text-anchor="middle" font-family="monospace" font-size="14" font-weight="700" fill="#79c0ff">{ }</text>
+  </g>
+  <g class="float2" transform="translate(478,98)">
+    <rect x="0" y="0" width="34" height="28" rx="4" fill="#1c2333" stroke="#30363d" stroke-width="1"/>
+    <text x="17" y="20" text-anchor="middle" font-family="monospace" font-size="13" font-weight="700" fill="#56d364">/&gt;</text>
+  </g>
+  <g class="float3" transform="translate(530,58)">
+    <rect x="0" y="0" width="30" height="28" rx="4" fill="#1c2333" stroke="#30363d" stroke-width="1"/>
+    <text x="15" y="20" text-anchor="middle" font-family="monospace" font-size="14" font-weight="700" fill="#e3b341">()</text>
+  </g>
+
+  <!-- ── PIXEL PERSON – pardo, cabelo preto, óculos, olho verde ── -->
+
+  <!-- cabelo preto -->
+  <rect x="146" y="70" width="34" height="11" rx="3" fill="#1a1a1a"/>
+  <rect x="146" y="76" width="5" height="12" fill="#1a1a1a"/>
+  <rect x="175" y="76" width="5" height="8"  fill="#1a1a1a"/>
+
+  <!-- cabeça – tom pardo -->
+  <rect x="146" y="78" width="34" height="26" rx="3" fill="#b5783a"/>
+
+  <!-- sobrancelhas pretas -->
+  <rect x="152" y="82" width="9" height="2" rx="1" fill="#1a1a1a"/>
+  <rect x="166" y="82" width="9" height="2" rx="1" fill="#1a1a1a"/>
+
+  <!-- olhos verdes -->
+  <rect x="152" y="86" width="7" height="6" rx="1" fill="#2d6a2d"/>
+  <rect x="167" y="86" width="7" height="6" rx="1" fill="#2d6a2d"/>
+  <!-- pupila -->
+  <rect x="154" y="87" width="3" height="4" rx="1" fill="#0d1117"/>
+  <rect x="169" y="87" width="3" height="4" rx="1" fill="#0d1117"/>
+  <!-- brilho -->
+  <rect x="155" y="88" width="1" height="1" fill="#ffffff"/>
+  <rect x="170" y="88" width="1" height="1" fill="#ffffff"/>
+
+  <!-- óculos armação -->
+  <!-- lente esquerda -->
+  <rect x="150" y="84" width="11" height="10" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- lente direita -->
+  <rect x="165" y="84" width="11" height="10" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- ponte -->
+  <rect x="161" y="88" width="4" height="2" rx="1" fill="#1a1a1a"/>
+  <!-- hastes -->
+  <rect x="144" y="87" width="6" height="2" rx="1" fill="#1a1a1a"/>
+  <rect x="176" y="87" width="6" height="2" rx="1" fill="#1a1a1a"/>
+
+  <!-- nariz -->
+  <rect x="162" y="93" width="4" height="3" rx="1" fill="#9c6128"/>
+
+  <!-- boca / sorriso -->
+  <rect x="154" y="98" width="5" height="2" rx="1" fill="#8b4f1e"/>
+  <rect x="159" y="100" width="8" height="2" rx="1" fill="#8b4f1e"/>
+  <rect x="167" y="98" width="5" height="2" rx="1" fill="#8b4f1e"/>
+
+  <!-- pescoço -->
+  <rect x="157" y="104" width="12" height="8" rx="1" fill="#b5783a"/>
+
+  <!-- corpo -->
+  <rect x="136" y="112" width="54" height="44" rx="4" fill="#1f6feb"/>
+  <!-- gola -->
+  <rect x="155" y="112" width="16" height="10" rx="2" fill="#388bfd"/>
+  <!-- logo no peito -->
+  <rect x="154" y="124" width="18" height="14" rx="2" fill="#0d1117"/>
+  <text x="163" y="135" text-anchor="middle" font-family="monospace" font-size="8" font-weight="700" fill="#58a6ff">&lt;/&gt;</text>
+
+  <!-- braço esquerdo digitando -->
+  <g class="typing">
+    <rect x="116" y="114" width="20" height="32" rx="4" fill="#1f6feb"/>
+    <rect x="108" y="140" width="16" height="10" rx="3" fill="#b5783a"/>
+  </g>
+  <!-- braço direito -->
+  <rect x="190" y="114" width="20" height="32" rx="4" fill="#1f6feb"/>
+  <rect x="202" y="140" width="16" height="10" rx="3" fill="#b5783a"/>
+
+  <!-- pernas -->
+  <rect x="144" y="156" width="20" height="28" rx="4" fill="#2d333b"/>
+  <rect x="168" y="156" width="20" height="28" rx="4" fill="#2d333b"/>
+  <!-- sapatos -->
+  <rect x="140" y="179" width="26" height="9" rx="3" fill="#161b22"/>
+  <rect x="165" y="179" width="26" height="9" rx="3" fill="#161b22"/>
+
+  <!-- ── CADEIRA ── -->
+  <rect x="119" y="155" width="88" height="9" rx="3" fill="#30363d"/>
+  <rect x="114" y="162" width="8" height="26" rx="2" fill="#21262d"/>
+  <rect x="204" y="162" width="8" height="26" rx="2" fill="#21262d"/>
+  <rect x="110" y="185" width="16" height="6" rx="3" fill="#30363d"/>
+  <rect x="200" y="185" width="16" height="6" rx="3" fill="#30363d"/>
+  <rect x="116" y="108" width="12" height="48" rx="3" fill="#30363d"/>
+
+  <!-- ── MESA ── -->
+  <rect x="96" y="155" width="388" height="9" rx="3" fill="#21262d"/>
+  <rect x="96"  y="162" width="8" height="28" rx="2" fill="#161b22"/>
+  <rect x="476" y="162" width="8" height="28" rx="2" fill="#161b22"/>
+
+  <!-- teclado -->
+  <rect x="228" y="157" width="104" height="14" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="233" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="241" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="249" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="257" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="265" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="273" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="281" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="289" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="297" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="305" y="160" width="6" height="4" rx="1" fill="#21262d"/>
+  <rect x="313" y="160" width="14" height="4" rx="1" fill="#21262d"/>
+  <rect x="237" y="166" width="82" height="4" rx="1" fill="#21262d"/>
+
+  <!-- caneca de café -->
+  <rect x="416" y="136" width="24" height="22" rx="3" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <rect x="440" y="141" width="8" height="10" rx="4" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="419" y="138" width="18" height="5" rx="1" fill="#79c0ff" opacity="0.5"/>
+  <path class="steam1" d="M424 132 Q426 128 424 124" fill="none" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+  <path class="steam2" d="M431 130 Q433 126 431 122" fill="none" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- ── TECH BADGES ── -->
+  <g transform="translate(488,70)">
+    <rect x="0"   y="0"  width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="22"  y="11" text-anchor="middle" font-family="monospace" font-size="9" fill="#79c0ff">.NET</text>
+    <rect x="50"  y="0"  width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="72"  y="11" text-anchor="middle" font-family="monospace" font-size="9" fill="#58a6ff">React</text>
+    <rect x="100" y="0"  width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="122" y="11" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff7b72">C#</text>
+    <rect x="0"   y="22" width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="22"  y="33" text-anchor="middle" font-family="monospace" font-size="9" fill="#e3b341">SQL</text>
+    <rect x="50"  y="22" width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="72"  y="33" text-anchor="middle" font-family="monospace" font-size="9" fill="#56d364">Node</text>
+    <rect x="100" y="22" width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="122" y="33" text-anchor="middle" font-family="monospace" font-size="9" fill="#a5d6ff">Docker</text>
+    <rect x="25"  y="44" width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="47"  y="55" text-anchor="middle" font-family="monospace" font-size="9" fill="#ffa28b">Python</text>
+    <rect x="75"  y="44" width="44" height="16" rx="3" fill="#1c2333" stroke="#30363d" stroke-width="0.8"/>
+    <text x="97"  y="55" text-anchor="middle" font-family="monospace" font-size="8" fill="#e3b341">TypeScript</text>
+  </g>
+
+</svg>
